@@ -4,7 +4,7 @@
 <div class="container customContainer">
   <div class="row">
     <div class="col-lg-5 customBlock">
-      <img class="logo" src="/assets/img/acme.png" alt="Logo" />
+      <img class="logo" src="assets/img/acme.png" alt="Logo" />
       <div class="sidebar-nav">
         <div class="navbar navbar-default" role="navigation">
           <div class="navbar-header">
@@ -20,18 +20,18 @@
             <ul class="nav navbar-nav">
               <li class="msgAccueil">
                 <div class="nameUser">
-                  <div class="tdPhoto"><img src="/assets/img/photo0.png" /></div>
+                  <div class="tdPhoto"><img src="assets/img/photo0.png" /></div>
                   <div class="tdName">Bonjour,<span class="firstName"> {{personalInfo?.primary_info.first_name}}</span></div>
                   <div class="deconnexion" (click)="deconnect()"> Déconnexion </div>
 
                 </div>
               </li>
-              <li ><a routerLink="/personalData"><img src="/assets/img/personalData.png" /> Données personnelles</a></li>
-              <li><a routerLink="/adresse"><img src="/assets/img/adresse.png" /> Adresse</a></li>
-              <li><a routerLink="/mesCommandes"><img src="/assets/img/mesCommandes.png" /> Mes commandes</a></li>
-              <li><a routerLink="/socialMedia"><img src="/assets/img/socialMedia.png" /> Social Media</a></li>
-              <li class="selected"><a routerLink="/dataProtability"><img src="/assets/img/portabiliteData.png" /> Gérer mes données</a></li>
-              <li><a routerLink="/credit"><img src="/assets/img/portabiliteData.png" /> Crédit</a></li>
+              <li ><a routerLink="/personalData"><img src="assets/img/personalData.png" /> Données personnelles</a></li>
+              <li><a routerLink="/adresse"><img src="assets/img/adresse.png" /> Adresse</a></li>
+              <li><a routerLink="/mesCommandes"><img src="assets/img/mesCommandes.png" /> Mes commandes</a></li>
+              <li><a routerLink="/socialMedia"><img src="assets/img/socialMedia.png" /> Social Media</a></li>
+              <li class="selected"><a routerLink="/dataProtability"><img src="assets/img/portabiliteData.png" /> Gérer mes données</a></li>
+              <li><a routerLink="/credit"><img src="assets/img/portabiliteData.png" /> Crédit</a></li>
 
             </ul>
           </div><!--/.nav-collapse -->
@@ -47,7 +47,7 @@
         <h3 class="titleBloc">Télécharger mes données</h3>
 
         <div class="mainBloc">
-          <p><img src="/assets/img/feuilledl.png" alt="Téléchargement Excel" /> <a [attr.href]="downloadAppFile(idUser)" target="_blank">Télécharger mes données au format Excel</a></p>
+          <p><img src="assets/img/feuilledl.png" alt="Téléchargement Excel" /> <a [attr.href]="downloadAppFile(idUser)" target="_blank">Télécharger mes données au format Excel</a></p>
           <!--<div class="subTitleStatus">Ready
             <a style="cursor:pointer" [attr.href]="downloadAppFile(idUser)" target="_blank">
               <i class="glyphicon glyphicon-download-alt"></i>
@@ -57,9 +57,9 @@
           <p>{{personalInfo?.primary_info.email}}</p>
 
           <div class="flexList">
-            <div class="flexElt"><a (click)="sendMail(idUser)" target="_blank"><img src="/assets/img/excel.png" alt="Téléchargement Excel" /> Excel</a></div>
-            <div class="flexElt"><a (click)="sendMail(idUser)" target="_blank" ><img src="/assets/img/xml.png" alt="Téléchargement XML" /> XML</a></div>
-            <div class="flexElt"><a (click)="sendMail(idUser)" target="_blank" ><img src="/assets/img/json.png" alt="Téléchargement JSON" /> JSON</a></div>
+            <div class="flexElt"><a (click)="sendMail(idUser)" target="_blank"><img src="assets/img/excel.png" alt="Téléchargement Excel" /> Excel</a></div>
+            <div class="flexElt"><a (click)="sendMail(idUser)" target="_blank" ><img src="assets/img/xml.png" alt="Téléchargement XML" /> XML</a></div>
+            <div class="flexElt"><a (click)="sendMail(idUser)" target="_blank" ><img src="assets/img/json.png" alt="Téléchargement JSON" /> JSON</a></div>
           </div>
         </div>
 
@@ -177,7 +177,7 @@
         <div class="sp-body modal-content">
           <form name="oubliDefinitif">
             <!-- Modal content -->
-            <button id="buttonClose"><img src="/assets/img/cross2.png" data-dismiss="modal" alt="Fermer la fenêtre" /></button>
+            <button id="buttonClose"><img src="assets/img/cross2.png" data-dismiss="modal" alt="Fermer la fenêtre" /></button>
             <h3 class="titleBloc">Oubli définitif</h3>
             <p><span id="warning">Attention</span>, en cliquant sur ce bouton, vous demandez à ACME de supprimer des informations vous concernant :</p>
             <ul>
@@ -196,7 +196,7 @@
 
 <footer>
   <div class="footer-container">
-    <img src="/assets/img/sqli.png" alt="Logo SQLI" />
+    <img src="assets/img/sqli.png" alt="Logo SQLI" />
   </div>
 </footer>
 

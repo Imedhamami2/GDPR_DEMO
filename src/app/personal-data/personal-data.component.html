@@ -4,7 +4,7 @@
 <div class="container customContainer" >
   <div class="row">
     <div class="col-lg-5 customBlock">
-      <img class="logo" src="/assets/img/acme.png" alt="Logo" />
+      <img class="logo" src="assets/img/acme.png" alt="Logo" />
       <div class="sidebar-nav">
         <div class="navbar navbar-default" role="navigation">
           <div class="navbar-header">
@@ -20,17 +20,17 @@
             <ul class="nav navbar-nav">
               <li class="msgAccueil">
                 <div class="nameUser">
-                  <div class="tdPhoto"><img src="/assets/img/photo0.png" /></div>
+                  <div class="tdPhoto"><img src="assets/img/photo0.png" /></div>
                   <div class="tdName">Bonjour,<span class="firstName">{{customers.first_name}}</span></div>
                   <div class="deconnexion" (click)="deconnect()"> Déconnexion </div>
                 </div>
               </li>
-              <li class="selected"><a routerLink="/personalData"><img src="/assets/img/personalData.png" /> Données personnelles</a></li>
-              <li><a routerLink="/adresse"><img src="/assets/img/adresse.png" /> Adresse</a></li>
-              <li><a routerLink="/mesCommandes"><img src="/assets/img/mesCommandes.png" /> Mes commandes</a></li>
-              <li><a routerLink="/socialMedia"><img src="/assets/img/socialMedia.png" /> Social Media</a></li>
-              <li><a routerLink="/dataProtability"><img src="/assets/img/portabiliteData.png" /> Gérer mes données</a></li>
-              <li><a routerLink="/credit"><img src="/assets/img/portabiliteData.png" /> Crédit</a></li>
+              <li class="selected"><a routerLink="/personalData"><img src="assets/img/personalData.png" /> Données personnelles</a></li>
+              <li><a routerLink="/adresse"><img src="assets/img/adresse.png" /> Adresse</a></li>
+              <li><a routerLink="/mesCommandes"><img src="assets/img/mesCommandes.png" /> Mes commandes</a></li>
+              <li><a routerLink="/socialMedia"><img src="assets/img/socialMedia.png" /> Social Media</a></li>
+              <li><a routerLink="/dataProtability"><img src="assets/img/portabiliteData.png" /> Gérer mes données</a></li>
+              <li><a routerLink="/credit"><img src="assets/img/portabiliteData.png" /> Crédit</a></li>
             </ul>
           </div>
         </div>
@@ -41,7 +41,7 @@
       <h1 class="titlePage">Données personnelles</h1>
       <!-- Read mode 'Mes informations' -->
       <div class="blocMenu" *ngIf="mode==1">
-        <button class="buttonRight" (click)="updateContact(2)"><img src="../../assets/img/edit2.png" alt="Editer" /></button>
+        <button class="buttonRight" (click)="updateContact(2)"><img src="assets/img/edit2.png" alt="Editer" /></button>
         <h3 class="titleBloc">Mes informations</h3>
         <div class="mainBloc">
           <div class="form-group">
@@ -96,7 +96,7 @@
       </div>
       <!-- update mode 'Mes informations'-->
       <div class="blocMenu" *ngIf="mode==2">
-        <button class="buttonRight" (click)="updateContact(1)"><img src="/assets/img/edit2.png" alt="Editer" /></button>
+        <button class="buttonRight" (click)="updateContact(1)"><img src="assets/img/edit2.png" alt="Editer" /></button>
           <h3 class="titleBloc">Mes informations</h3>
 
         <div class="mainBloc">
@@ -173,7 +173,7 @@
 
       <!-- Read mode 'Contact' -->
       <div class="blocMenu" *ngIf="modeContact==3">
-        <button class="buttonRight" (click)="updateContact(4)"><img src="/assets/img/edit2.png"  alt="Editer" /></button>
+        <button class="buttonRight" (click)="updateContact(4)"><img src="assets/img/edit2.png"  alt="Editer" /></button>
         <h3 class="titleBloc">Contact</h3>
 
         <div class="mainBloc">
@@ -201,7 +201,7 @@
       </div>
       <!-- update mode 'Contact'-->
       <div class="blocMenu" *ngIf="modeContact==4">
-        <button class="buttonRight" (click)="updateContact(3)"><img src="/assets/img/edit2.png"  alt="Editer" /></button>
+        <button class="buttonRight" (click)="updateContact(3)"><img src="assets/img/edit2.png"  alt="Editer" /></button>
         <h3 class="titleBloc">Contact</h3>
 
         <div class="mainBloc">
@@ -284,7 +284,7 @@
 
 <footer>
   <div class="footer-container">
-    <img src="/assets/img/sqli.png" alt="Logo SQLI" />
+    <img src="assets/img/sqli.png" alt="Logo SQLI" />
   </div>
 </footer>
 
