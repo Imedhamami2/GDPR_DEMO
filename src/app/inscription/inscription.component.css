@@ -192,38 +192,6 @@ input:checked + .slider:before {
   color: black;
   text-decoration: underline;
 }
-@font-face {
-  font-family: 'montserratregular';
-  src: url('/app/cssDirectory/montserratregular/montserrat-regular-webfont.eot');
-  src: url('/app/cssDirectory/montserratregular/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
-  url('/app/cssDirectory/montserratregular/montserrat-regular-webfont.woff') format('woff'),
-  url('/app/cssDirectory/montserratregular/montserrat-regular-webfont.ttf') format('truetype'),
-  url('/app/cssDirectory/montserratregular/montserrat-regular-webfont.svg#montserratregular') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'montserratblack';
-  src: url('/app/cssDirectory/montserratblack/montserrat-black-webfont.eot');
-  src: url('/app/cssDirectory/montserratblack/montserrat-black-webfont.eot?#iefix') format('embedded-opentype'),
-  url('/app/cssDirectory/montserratblack/montserrat-black-webfont.woff') format('woff'),
-  url('/app/cssDirectory/montserratblack/montserrat-black-webfont.ttf') format('truetype'),
-  url('/app/cssDirectory/montserratblack/montserrat-black-webfont.svg#montserratblack') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'montserratsemibold';
-  src: url('/app/cssDirectory/montserratsemibold/montserrat-semibold-webfont.eot');
-  src: url('/app/cssDirectory/montserratsemibold/montserrat-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-  url('/app/cssDirectory/montserratsemibold/montserrat-semibold-webfont.woff') format('woff'),
-  url('/app/cssDirectory/montserratsemibold/montserrat-semibold-webfont.ttf') format('truetype'),
-  url('/app/cssDirectory/montserratsemibold/montserrat-semibold-webfont.svg#montserratsemibold') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
 
 html, body{
   margin: 0;
