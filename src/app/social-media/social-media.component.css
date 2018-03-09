@@ -1,32 +1,32 @@
 @font-face {
   font-family: 'montserratregular';
-  src: url('../cssDirectory/montserratregular/montserrat-regular-webfont.eot');
-  src: url('../cssDirectory/montserratregular/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../cssDirectory/montserratregular/montserrat-regular-webfont.woff') format('woff'),
-  url('../cssDirectory/montserratregular/montserrat-regular-webfont.ttf') format('truetype'),
-  url('../cssDirectory/montserratregular/montserrat-regular-webfont.svg#montserratregular') format('svg');
+  src: url('/app/cssDirectory/montserratregular/montserrat-regular-webfont.eot');
+  src: url('/app/cssDirectory/montserratregular/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/app/cssDirectory/montserratregular/montserrat-regular-webfont.woff') format('woff'),
+  url('/app/cssDirectory/montserratregular/montserrat-regular-webfont.ttf') format('truetype'),
+  url('/app/cssDirectory/montserratregular/montserrat-regular-webfont.svg#montserratregular') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'montserratblack';
-  src: url('../cssDirectory/montserratblack/montserrat-black-webfont.eot');
-  src: url('../cssDirectory/montserratblack/montserrat-black-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../cssDirectory/montserratblack/montserrat-black-webfont.woff') format('woff'),
-  url('../cssDirectory/montserratblack/montserrat-black-webfont.ttf') format('truetype'),
-  url('../cssDirectory/montserratblack/montserrat-black-webfont.svg#montserratblack') format('svg');
+  src: url('/app/cssDirectory/montserratblack/montserrat-black-webfont.eot');
+  src: url('/app/cssDirectory/montserratblack/montserrat-black-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/app/cssDirectory/montserratblack/montserrat-black-webfont.woff') format('woff'),
+  url('/app/cssDirectory/montserratblack/montserrat-black-webfont.ttf') format('truetype'),
+  url('/app/cssDirectory/montserratblack/montserrat-black-webfont.svg#montserratblack') format('svg');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'montserratsemibold';
-  src: url('../cssDirectory/montserratsemibold/montserrat-semibold-webfont.eot');
-  src: url('../cssDirectory/montserratsemibold/montserrat-semibold-webfont.eot?#iefix') format('embedded-opentype'),
-  url('../cssDirectory/montserratsemibold/montserrat-semibold-webfont.woff') format('woff'),
-  url('../cssDirectory/montserratsemibold/montserrat-semibold-webfont.ttf') format('truetype'),
-  url('../cssDirectory/montserratsemibold/montserrat-semibold-webfont.svg#montserratsemibold') format('svg');
+  src: url('/app/cssDirectory/montserratsemibold/montserrat-semibold-webfont.eot');
+  src: url('/app/cssDirectory/montserratsemibold/montserrat-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('/app/cssDirectory/montserratsemibold/montserrat-semibold-webfont.woff') format('woff'),
+  url('/app/cssDirectory/montserratsemibold/montserrat-semibold-webfont.ttf') format('truetype'),
+  url('/app/cssDirectory/montserratsemibold/montserrat-semibold-webfont.svg#montserratsemibold') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -36,7 +36,7 @@ html, body{
   display: table;
   height: 100%;
   width: 100%;
-  background-image: url("../../assets/img/Background_.png");
+  background-image: url("/assets/img/Background_.png");
 
 }
 .deconnexion {
@@ -273,7 +273,7 @@ ul.nav.navbar-nav li a{
 
 #advertizer{
   padding: 20px;
-  background-image: url("../../assets/img/block.png");
+  background-image: url("/assets/img/block.png");
   background-size: cover;
   font-family: "montserratregular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   color: white;
@@ -299,7 +299,7 @@ ul.nav.navbar-nav li a{
 }
 
 .buttonRight{
-  background: url('../../assets/img/edit2.png');
+  background: url('/assets/img/edit2.png');
   padding-left:1px;
   margin-top: 20px;
   width: 32px;

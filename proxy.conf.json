@@ -6,5 +6,9 @@
   "/download": {
     "target": "http://18.197.4.164:9090/",
     "secure": false
+  },
+  "/custid": {
+    "target": "http://ec2-18-197-4-164.eu-central-1.compute.amazonaws.com:9095/",
+    "secure": false
   }
 }

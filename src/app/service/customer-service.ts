@@ -11,12 +11,15 @@ export class CustomerService {
   }
   // get data user 5815 sans parametres
  getPersonalDat(userId: string) {
-    return this.apiService.get('talendmdm/services/rest/data/Customer/Customer/' + userId + '?container=MASTER');
+    return this.apiService.get('http://18.197.4.164:8180/talendmdm/services/rest/data/Customer/Customer/' + userId + '?container=MASTER');
  }
  downloadData(userId: string) {
-   return this.apiService.get('download/' + userId);
+   return this.apiService.get('http://18.197.4.164:9090/download/' + userId);
  }
  updateData(user: string) {
-    return this.apiService.post('/talendmdm/services/rest/data/Customer?container=MASTER', user );
+    return this.apiService.post('http://18.197.4.164:8180//talendmdm/services/rest/data/Customer?container=MASTER', user );
+ }
+ sendMail(iduser: any) {
+    return this.apiService.get('http://ec2-18-197-4-164.eu-central-1.compute.amazonaws.com:9095/custid/' + iduser);
  }
 }

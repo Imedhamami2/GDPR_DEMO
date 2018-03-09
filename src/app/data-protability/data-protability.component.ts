@@ -133,6 +133,10 @@ export class DataProtabilityComponent implements OnInit {
     this.router.navigate(['connexion']);
   }
   sendMail(idUsers: any) {
-     return 'http://ec2-18-197-4-164.eu-central-1.compute.amazonaws.com:9095/custid/' + idUsers.trim();
+    this.customerService.sendMail(idUsers)
+      .subscribe( data => {
+        console.log(data);
+      });
+     //return 'http://ec2-18-197-4-164.eu-central-1.compute.amazonaws.com:9095/custid/' + idUsers.trim();
   }
 }

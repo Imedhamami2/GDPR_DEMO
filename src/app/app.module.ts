@@ -19,6 +19,7 @@ import { FooterComponent } from './footer/footer.component';
 import { ConnexionComponent } from './connexion/connexion.component';
 import { InscriptionComponent } from './inscription/inscription.component';
 import {DatePipe} from '@angular/common';
+import { CreditComponent } from './credit/credit.component';
 
 
 @NgModule({
@@ -32,6 +33,7 @@ import {DatePipe} from '@angular/common';
     FooterComponent,
     ConnexionComponent,
     InscriptionComponent,
+    CreditComponent,
   ],
   imports: [
     AlertModule.forRoot(),

@@ -7,6 +7,7 @@ import {AdressComponent} from './adress/adress.component';
 import {SocialMediaComponent} from './social-media/social-media.component';
 import {ConnexionComponent} from './connexion/connexion.component';
 import {InscriptionComponent} from './inscription/inscription.component';
+import {CreditComponent} from './credit/credit.component';
 
 export const routes: Routes = [
   {
@@ -36,6 +37,10 @@ export const routes: Routes = [
   {
     path: 'dataProtability',
     component: DataProtabilityComponent
+  },
+  {
+    path: 'credit',
+    component: CreditComponent
   },
   {path: '' ,
     redirectTo: '/connexion',
